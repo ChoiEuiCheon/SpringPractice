@@ -1,7 +1,9 @@
-package org.korea.sample;
+package com.korea.sample;
+
 
 import org.springframework.stereotype.Component;
 import lombok.*;
+
 
 @Component
 @Data

@@ -1,6 +1,7 @@
 package com.korea.controller;
 import org.junit.Test;
-import org.korea.sample.Person;
+
+import com.korea.sample.Person;
 
 public class lombok {
 
