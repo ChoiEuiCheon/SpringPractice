@@ -80,7 +80,8 @@
 					<artifactId>jmxri</artifactId>
 				</exclusion>
 			</exclusions>
-			<scope>runtime</scope>
+			<!-- <scope>runtime</scope> -->
+			
 		</dependency>
 
 		<!-- @Inject -->
@@ -133,7 +134,14 @@
 		    <scope>provided</scope>
 		</dependency>
 		
-			   
+		<!-- Spring Test 코드 -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-test</artifactId>
+		    <version>5.0.7.RELEASE</version>
+		    <scope>test</scope>
+		</dependency>
 			   
 	</dependencies>
     <build>

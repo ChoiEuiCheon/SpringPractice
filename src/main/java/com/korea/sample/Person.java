@@ -5,10 +5,11 @@ import org.springframework.stereotype.Component;
 import lombok.*;
 
 
-@Component
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
+@Component
 public class Person {
 	private String name;
 	private String age;
